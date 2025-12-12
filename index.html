@@ -6,7 +6,7 @@
     <title>Undangan Pernikahan Lani & Nindi</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta data-target-date="2025-10-11T09:00:00" id="targetDate">
+    <meta data-target-date="2026-01-04T09:00:00" id="targetDate">
 </head>
 <body>
 
@@ -51,7 +51,7 @@
             </div>
 
             <div class="quote-box">
-                <p><strong>SABTU, 04 JANUARI 2026</strong></p>
+                <p><strong>MINGGU, 04 JANUARI 2026</strong></p>
                 <div class="arabic-text">
                     <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri..."</p>
                     <p>QS Ar-Rum: 21</p>
@@ -146,7 +146,7 @@
                     <button class="copy-btn" data-account="149501004273534">SALIN / COPY</button>
                 </div>
                  <div class="bank-detail">
-                    <p>mandiri: 1460019020473 a/n YLani Ardiansyah</p>
+                    <p>mandiri: 1460019020473 a/n Lani Ardiansyah</p>
                     <button class="copy-btn" data-account="1460019020473">SALIN / COPY</button>
                 </div>
             </div>
@@ -154,11 +154,15 @@
             <h2>BEST WISHES</h2>
             <p>Kirimkan ucapan & do'a restu</p>
             <form id="wishes-form">
-                <input type="text" placeholder="Nama lengkap..." required>
-                <textarea placeholder="Tulis ucapan & doa restu..." required></textarea>
+                <input type="text" id="wish-name" placeholder="Nama lengkap..." required>
+                <textarea id="wish-message" placeholder="Tulis ucapan & doa restu..." required></textarea>
                 <button type="submit">KIRIM</button>
             </form>
             
+            <div id="comment-list">
+                <p style="color: #c08c4e;">Memuat ucapan...</p>
+            </div>
+
             <h2>RSVP Konfirmasi Kehadiran</h2>
             <button id="open-rsvp-form">MULAI ISI SEKARANG</button>
 
@@ -169,6 +173,7 @@
             </footer>
         </section>
 
-    </div> <script src="script.js"></script>
+    </div> 
+    <script src="script.js"></script>
 </body>
 </html>
