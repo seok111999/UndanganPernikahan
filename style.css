@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     /* GANTI URL GAMBAR DAN FILE */
-    background-image: url('.jpg'); 
+    background-image: url('cover_background.jpg'); 
     background-size: cover;
     background-position: center top;
     display: flex;
@@ -126,20 +126,16 @@ h1, h2, h3, h4 {
 
 /* ----------------- PROFILES ----------------- */
 .parent-section {
-    margin-top: -50px;
-    margin-bottom:-100px;
+    /* Menghilangkan margin negatif agar tidak tumpang tindih */
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .bismillah {
     font-size: 1.8em;
-    margin-top: auto;
     margin-bottom: 40px;
 }
 .profile-card {
     margin: 40px auto;
-    margin-top: auto;
-    margin-bottom: auto;
     width: 90%;
 }
 .profile-photo {
@@ -269,4 +265,34 @@ h1, h2, h3, h4 {
     margin-top: 50px;
     padding-top: 20px;
     border-top: 1px solid var(--secondary-color);
+}
+
+/* STYLES KHUSUS UNTUK LIST KOMENTAR */
+#comment-list {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.comment-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-left: 3px solid var(--secondary-color);
+}
+
+.comment-item strong {
+    color: var(--secondary-color);
+}
+
+.comment-time {
+    float: right;
+    font-size: 0.7em;
+    opacity: 0.7;
+}
+
+.comment-message {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.95em;
 }
